@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Negro como color principal */
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.5); /* Sombra blanca */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
+}
+h1 {
+    text-align: center;
+    color: #ddd; 
+}
+/* Áreas de entrada y salida de texto */
+.input-area,
+.output-area {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 92%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    background-color: #333; /* Color oscuro para el fondo del textarea */
+    color: #0fa; /* Color brillante para el texto */
+    box-shadow: 0 0 10px rgba(15, 15, 170, 0.5); /* Sombra azul brillante */
+    font-size: 16px; 
+}
+/* Botones */
+button {
+    display: block;
+    width: 300px; /* Ancho de 300px */
+    height: 70px; /* Alto de 70px */
+    margin: 10px auto; /* Separación entre botones */
+    background-color: #333; /* Negro como color principal para los botones */
+    color: #fff; /* Texto en blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555; /* Gris oscuro al pasar el maouse */
+}
+
+/* Estilo para el botón de copiar */
+#copyStyleBtn {
+    background-color: #666; /* Gris oscuro para el botón de copiar */
+}
+
+#copyStyleBtn:hover {
+    background-color: #888; /* Gris oscuro más claro al pasar el maouse */
+}
